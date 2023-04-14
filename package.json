@@ -1,0 +1,23 @@
+{
+  "name": "ckb-light-client-tools",
+  "description": "test",
+  "license": "BUSL-1.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.1",
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@ckb-lumos/codec": "v0.20.0-alpha.1",
+    "@ckb-lumos/light-client": "v0.20.0-alpha.1",
+    "@ckb-lumos/lumos": "v0.20.0-alpha.1",
+    "@ckb-lumos/rpc": "v0.20.0-alpha.1"
+  },
+  "scripts": {
+    "query:get-scripts": "ts-node get-scripts.ts",
+    "query:getTransaction": "ts-node getTransaction.ts",
+    "query:getCells": "ts-node getCells.ts"
+    }
+}

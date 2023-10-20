@@ -13,11 +13,13 @@
     "@ckb-lumos/codec": "v0.20.0-alpha.1",
     "@ckb-lumos/light-client": "v0.20.0-alpha.1",
     "@ckb-lumos/lumos": "v0.20.0-alpha.1",
-    "@ckb-lumos/rpc": "v0.20.0-alpha.1"
+    "@ckb-lumos/rpc": "v0.20.0-alpha.1",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1"
   },
   "scripts": {
     "query:get-scripts": "ts-node get-scripts.ts",
     "query:getTransaction": "ts-node getTransaction.ts",
     "query:getCells": "ts-node getCells.ts"
-    }
+  }
 }

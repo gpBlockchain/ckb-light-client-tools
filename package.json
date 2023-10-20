@@ -21,5 +21,8 @@
     "query:get-scripts": "ts-node get-scripts.ts",
     "query:getTransaction": "ts-node getTransaction.ts",
     "query:getCells": "ts-node getCells.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
